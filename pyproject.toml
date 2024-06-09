@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "potter-fanfic-parser"
+version = "0.1.0"
+description = ""
+authors = ["werserk <werserk@inbox.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+tqdm = "^4.66.4"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
+black = {extras = ["jupyter"], version = "^24.4.2"}
+
+
+[tool.poetry.group.parser.dependencies]
+webdriver-manager = "^4.0.1"
+selenium = "^4.21.0"
+
+
+[tool.poetry.group.web.dependencies]
+streamlit = "^1.35.0"
+
+
+[tool.poetry.group.analysis.dependencies]
+scikit-learn = "^1.5.0"
+seaborn = "^0.13.2"
+matplotlib = "^3.9.0"
+wordcloud = "^1.9.3"
+scipy = "^1.13.1"
+statsmodels = "^0.14.2"
+networkx = "^3.3"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
