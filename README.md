@@ -1,4 +1,4 @@
-# Проект Harry Potter Fanfiction Data Analysis
+# Project Harry Potter Fanfiction Data Analysis
 
 ## Описание
 
